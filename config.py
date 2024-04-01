@@ -40,7 +40,7 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Entertainment_AG")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/cuddles_hub")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/the_Reaperss")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -52,7 +52,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 999))
 
 
 # Telegram audio and video file size limit (in bytes)
@@ -78,21 +78,21 @@ confirmer = {}
 
 
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://graph.org/file/cf57df5263f0b6092c1b9.jpg"
+    "START_IMG_URL", "https://graph.org/file/94e67ef6f2ec3052daa99.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://te.legra.ph/file/b8a0c1a00db3e57522b53.jpg"
+    "PING_IMG_URL", "https://graph.org/file/7402061f1bca55574fd7b.jpg"
 )
-PLAYLIST_IMG_URL = "https://te.legra.ph/file/4ec5ae4381dffb039b4ef.jpg"
-STATS_IMG_URL = "https://te.legra.ph/file/e906c2def5afe8a9b9120.jpg"
-TELEGRAM_AUDIO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-TELEGRAM_VIDEO_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-STREAM_IMG_URL = "https://te.legra.ph/file/bd995b032b6bd263e2cc9.jpg"
-SOUNCLOUD_IMG_URL = "https://te.legra.ph/file/bb0ff85f2dd44070ea519.jpg"
-YOUTUBE_IMG_URL = "https://te.legra.ph/file/6298d377ad3eb46711644.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://te.legra.ph/file/37d163a2f75e0d3b403d6.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://te.legra.ph/file/b35fd1dfca73b950b1b05.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://te.legra.ph/file/95b3ca7993bbfaf993dcb.jpg"
+PLAYLIST_IMG_URL = "https://graph.org/file/7aa044d73f3f6ba5d1a89.jpg"
+STATS_IMG_URL = "https://graph.org/file/92f794e0e5e6b2abdc99e.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/175bab78f79cf6ca6ad77.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/175bab78f79cf6ca6ad77.jpg"
+STREAM_IMG_URL = "https://graph.org/file/7aa044d73f3f6ba5d1a89.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/ae5f8dc6b60ab6b9024f4.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/9bedf6796f181ac878bac.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/39437626aeb74738eec54.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/92f794e0e5e6b2abdc99e.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/7402061f1bca55574fd7b.jpg"
 
 
 def time_to_seconds(time):
